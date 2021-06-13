@@ -1,0 +1,125 @@
+    /* Reset all*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+}
+
+    /* config header*/
+
+.header__title__principal{
+
+    background-color: transparent;
+    text-align: center;
+    padding: .5em 0;
+
+}
+.meu__Container{
+
+    width: 90%;
+    margin: .5em auto 0;
+    
+}
+
+.depoimento__title h1{
+
+    text-align: center;
+    padding: .5em 0;
+}
+.depoimento__title p{
+
+    letter-spacing: 1.5px;
+    line-height: 2;
+    text-align: left;
+
+}
+.image__alex_vargas{
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.button__ler__mais{
+
+    display: block;
+    margin: 1em 0;
+    padding: 1em;
+    color: rgba(0, 0, 0, 0.815);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    background-color: transparent;
+    clear: both;
+
+}
+.footer{
+
+    background-color: #000000c4;
+    margin: 2em 0 .5em;
+    padding: 2em 0;
+
+}
+.footer__medias_sociais{
+
+    padding: 1em 0 ;
+    background-color: transparent;
+}
+.footer__medias_sociais ul{
+
+    list-style: none;
+}
+.footer__medias_sociais li{
+
+    margin: .5em 0;
+    text-align: center;
+}
+.footer__medias_sociais a{
+
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+.spanM{
+
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+@media screen and ( min-width: 768px) {
+    
+    .depoimento__title{
+
+        overflow: hidden;
+        background-color: rgba(165, 42, 42, 0.151);
+        
+    }
+    .image__alex_vargas{
+
+        width: 30%;
+        margin: .5em 1em;
+        float: left;
+    }
+    .button__ler__mais:hover{
+
+        border-bottom: 5px solid rgba(0, 0, 0, 0.219);
+        
+    }
+    
+
+}
