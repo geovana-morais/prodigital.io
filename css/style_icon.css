@@ -1,0 +1,28 @@
+.header{
+
+    position: relative;
+}
+.icon{
+
+    display: inline-block;
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .logo__tipo_site{
+
+
+        background-image: url(../imagens/logo/logo-pro-digital_.svg);
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        position: absolute;
+        background-position: center;
+        border-radius: 50%;
+        top: .5em;
+        left: 15%;
+        transform: translate(-15%);
+
+    }
+}
