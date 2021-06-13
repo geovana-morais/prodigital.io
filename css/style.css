@@ -57,6 +57,8 @@ body{
     height: auto;
     object-fit: cover;
     display: block;
+    box-shadow: .1em .2em .3em black , .2em .3em .4em #ff00003b;
+   
 }
 .button__ler__mais{
 
