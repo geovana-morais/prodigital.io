@@ -9,6 +9,19 @@ body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 
 }
+.link__title{
+
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s ease-in-out;
+
+}
+.link__title:hover{
+
+    border-bottom: 1px solid #00000069;
+}
 
     /* config header*/
 
